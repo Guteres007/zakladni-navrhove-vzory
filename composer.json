@@ -1,0 +1,20 @@
+{
+    "name": "doetech/diedump",
+    "description": "This is a var-dumper tool like laravel's dd().",
+    "keywords": ["dd", "diedump", "dump", "var-dumper"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "YangLongFei",
+            "email": "283598349@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {},
+    "autoload":{
+        "psr-4":{
+            "App\\": "src/"
+        }
+    }
+}
