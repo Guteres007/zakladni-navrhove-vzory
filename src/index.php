@@ -8,7 +8,7 @@ require __DIR__ . '/../vendor/autoload.php';
 //phpinfo();
 
 //Factory Slouží ideálně pro vytváření třídy s více parametry v controlleru (které chci mít předvyplněné) a nebo na více místech v aplikaci.
-$car = CarFactory::createCar('Combi');
+//$car = CarFactory::createCar('Combi');
 //echo $car->getType();
 
 // Facade statické přistupování 
